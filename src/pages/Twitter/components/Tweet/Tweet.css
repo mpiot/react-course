@@ -1,0 +1,26 @@
+.tweet {
+    border: 1px solid rgba(74, 144, 226, 0.9);
+    border-radius: 5px;
+    margin-top: 1rem;
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+.tweet_profile_image {
+    text-align: center;
+}
+
+.tweet_profile_image > img {
+    width: 40px;
+    height: 40px;
+    border: rgba(102, 102, 102, 0.8) 1px solid;
+    border-radius: 50%;
+    margin-bottom: 0.2rem;
+}
+
+.tweet_body {
+    text-align: justify;
+    color: rgba(102, 102, 102, 1);
+}

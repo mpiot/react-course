@@ -1,0 +1,26 @@
+.row {
+    display: flex;
+}
+
+.col {
+    width: 100%;
+    padding: 0 2rem;
+}
+
+.card {
+    width: 100%;
+    margin-top: 0.6rem;
+}
+
+.card_title {
+    color: rgba(102, 102, 102, 1);
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 0.4rem;
+}
+
+.card_value {
+    color: rgba(102, 102, 102, 1);
+    font-size: 1.4rem;
+    text-align: center;
+}

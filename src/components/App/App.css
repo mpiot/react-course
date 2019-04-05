@@ -1,0 +1,23 @@
+.nav {
+    background-color: #ccc;
+    margin-bottom: 0.5rem;
+}
+
+.nav ul {
+    display: flex;
+}
+
+.nav li {
+    list-style-type: none;
+}
+
+.nav a {
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.nav a.active {
+    background-color: #888;
+}

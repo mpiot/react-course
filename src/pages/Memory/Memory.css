@@ -1,0 +1,12 @@
+.playground {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.attempts {
+    text-align: center;
+}

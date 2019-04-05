@@ -1,0 +1,31 @@
+.container {
+    margin-bottom: 1rem;
+}
+
+.title {
+    color: rgba(102, 102, 102, 1);
+}
+
+.progressbar {
+    border: 1px solid rgba(74, 144, 226, 0.9);
+    border-radius: 13px;
+    padding: 3px;
+    position: relative;
+    margin-top: 0.2rem;
+}
+
+.progressbar > div {
+    background-color: rgba(5, 214, 119, 0.5);
+    width: 0;
+    height: 20px;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.progressbar > span {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    color: rgba(102, 102, 102, 1);
+}

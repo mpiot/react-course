@@ -1,0 +1,17 @@
+:global(.circle-enter) {
+    opacity: 0;
+}
+
+:global(.circle-enter-active) {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+}
+
+:global(.circle-exit) {
+    opacity: 1;
+}
+
+:global(.circle-exit-active) {
+    opacity: 0;
+    transition: opacity 500ms ease-in;
+}

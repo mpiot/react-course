@@ -1,0 +1,7 @@
+.row {
+    display: flex;
+}
+
+.infos {
+    padding-left: 1rem;
+}

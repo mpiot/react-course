@@ -1,0 +1,33 @@
+.btn {
+    color: #fff;
+    margin-left: 10px;
+    background-color: #ff3133;
+    border: none;
+    border-radius: 5px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.container {
+    margin-left: 2rem;
+}
+
+:global(.item-enter) {
+    opacity: 0;
+}
+
+:global(.item-enter-active) {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+}
+
+:global(.item-exit) {
+    opacity: 1;
+}
+
+:global(.item-exit-active) {
+    opacity: 0;
+    transition: opacity 500ms ease-in;
+}
